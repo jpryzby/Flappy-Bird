@@ -136,8 +136,7 @@ while (not dead):
     screen.update()
     checkForDeath()
     
-
-
+input('Press ENTER to exit')
 
 
 
