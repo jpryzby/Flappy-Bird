@@ -113,7 +113,7 @@ def pause():
     pauseGame = False
   
   
-def dumbAI():
+def AI():
   if(birb.y < pipe.y-50):
     birb.flapAI()
 
@@ -130,7 +130,7 @@ screen.listen()
 while (not dead):
   while (pauseGame == False):
     physics()
-    dumbAI()
+    AI()
     birb.animate()
     moveAllPipes() 
     screen.update()
